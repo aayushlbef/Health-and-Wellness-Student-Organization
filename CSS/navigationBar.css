@@ -17,10 +17,6 @@
     --defFontFamily: "Poppins", sans-serif;
     --defHdFontWeight: 500;
 }
-
-body{
-    background-color: var(--defBackColor);
-}
 .head{
     display: flex;
     justify-content: flex-end;
