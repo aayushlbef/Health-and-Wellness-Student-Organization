@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --defBackColor: #fefefe;
+    --defBtnColor: #86c233;
+    --defSecBtnColor: #3aa1d0;
+    --defTextColor: #3d7c9e;
+    --defBtnHeight: 50px;
+    --defBtnRadius: 15px;
+    --defBoxPadding: 15px;
+    --defMargin: 10px 20px;
+    --defFontFamily: "Poppins", sans-serif;
+    --defHdFontWeight: 500;
+}
+
+body{
+    background-color: var(--defBackColor);
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;
+    height: 7vh;
+    justify-self: flex-end;
+    gap: 20px;
+    margin: var(--defMargin);
+    justify-content: flex-end;
+    align-items: center;
+}
+#search{
+    width: 250px;
+    height: var(--defBtnHeight);
+    border-radius: 50px;
+}
+#search::placeholder{
+    padding-left: 20px;
+    font-family: var(--defFontFamily);
+}
+#searchbtn{
+    width: 70px;
+    height: var(--defBtnHeight);
+    border-radius: var(--defBtnRadius);
+    border: none;
+    background-color: var(--defSecBtnColor);
+}
+#login{
+    background-color: var(--defBtnColor);
+    width: 100px;
+    height: var(--defBtnHeight);
+    border: none;
+    border-radius: var(--defBoxPadding);
+    font-family: var(--defFontFamily);
+    font-weight: 00;
+}
+#register{
+    background-color: var(--defBtnColor);
+    /* width: 100px; */
+    height: var(--defBtnHeight);
+    border: none;
+    border-radius: var(--defBoxPadding);
+    padding: 0px 15px;
+    font-family: var(--defFontFamily);
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: var(--defMargin);
+    margin-top: 20px;
+}
+
+nav ul li{
+    font-size: 17px;
+    font-family: var(--defFontFamily);
+}
+
+a{
+    text-decoration: none;
+    color: var(--defTextColor);
+}
+#logo{
+    width: 200px;
+    height: 125px;
+    position: fixed;
+    top: -5px;
+    left: 30px;
+    z-index: 100;
+}
