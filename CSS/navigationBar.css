@@ -13,37 +13,55 @@
     --defBtnHeight: 50px;
     --defBtnRadius: 15px;
     --defBoxPadding: 15px;
-    --defMargin: 10px 20px;
+    --defMargin: 20px;
     --defFontFamily: "Poppins", sans-serif;
     --defHdFontWeight: 500;
 }
-.head{
-    display: flex;
-    justify-content: flex-end;
-    width: 80vw;
-    height: 7vh;
-    justify-self: flex-end;
-    gap: 20px;
-    margin: var(--defMargin);
-    justify-content: flex-end;
-    align-items: center;
+header{
+    margin: 0px var(--defMargin);
 }
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 73px 50px;
+    column-gap: 15px;
+}
+.logo{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+#logo{
+    width: 200px;
+    height: 125px;
+    justify-content: center;
+    align-items: start;
+}
+
 #search{
-    width: 250px;
+    grid-column: 5/6;
+    width: fit-content;
     height: var(--defBtnHeight);
     border-radius: 50px;
+    align-self: center;
+    justify-self: self-end;
 }
+
 #search::placeholder{
     padding-left: 20px;
     font-family: var(--defFontFamily);
 }
+
 #searchbtn{
+    grid-column: 6/7;
     width: 70px;
     height: var(--defBtnHeight);
     border-radius: var(--defBtnRadius);
     border: none;
     background-color: var(--defSecBtnColor);
+    align-self: center;
+    justify-self: self-end;
 }
+
 #login{
     background-color: var(--defBtnColor);
     width: 100px;
@@ -52,42 +70,32 @@
     border-radius: var(--defBoxPadding);
     font-family: var(--defFontFamily);
     font-weight: 00;
+    align-self: center;
+    justify-self: self-end;
 }
+
 #register{
     background-color: var(--defBtnColor);
-    /* width: 100px; */
     height: var(--defBtnHeight);
     border: none;
     border-radius: var(--defBoxPadding);
     padding: 0px 15px;
     font-family: var(--defFontFamily);
+    align-self: center;
+    justify-self: self-end;
 }
-nav{
-    display: flex;
-    justify-content: flex-end;
-}
-nav ul{
-    display: flex;
+nav li{
     list-style: none;
-    gap: 40px;
-    margin: var(--defMargin);
-    margin-top: 20px;
-}
-
-nav ul li{
     font-size: 17px;
     font-family: var(--defFontFamily);
+    align-self: center;
+    justify-self: right;
+    text-align: end;
 }
 
-a{
+nav li a{
     text-decoration: none;
     color: var(--defTextColor);
 }
-#logo{
-    width: 200px;
-    height: 125px;
-    position: fixed;
-    top: -5px;
-    left: 30px;
-    z-index: 100;
-}
+
+
