@@ -23,8 +23,9 @@ header{
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 73px 50px;
+    grid-template-rows: 80px 30px;
     column-gap: 15px;
+    row-gap: 5px;
 }
 .logo{
     grid-column: 1/2;
@@ -32,14 +33,21 @@ nav{
 }
 #logo{
     width: 200px;
-    height: 125px;
+    height: 115px;
     justify-content: center;
     align-items: start;
 }
-
+.head{
+    grid-column: 5/9;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
 #search{
     grid-column: 5/6;
-    width: fit-content;
+    width: 250px;
     height: var(--defBtnHeight);
     border-radius: 50px;
     align-self: center;
@@ -84,12 +92,19 @@ nav{
     align-self: center;
     justify-self: self-end;
 }
+
+.lists{
+    grid-row: 2/3;
+    grid-column: 2/9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+}
 nav li{
     list-style: none;
     font-size: 17px;
     font-family: var(--defFontFamily);
-    align-self: center;
-    justify-self: right;
     text-align: end;
 }
 
