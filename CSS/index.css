@@ -9,7 +9,7 @@
     --defFontFamily: "Poppins", sans-serif;
 }
 
-.mainfir{
+.main1{
     width: 100%;
     height: 400px;
     background-color: aquamarine;
@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
 }
-.mainsec{
+.main2{
     width: 100%;
     height: 600px;
     background-color: rgb(252, 255, 253);
@@ -28,13 +28,13 @@
     align-items: center;
     font-family: var(--defFontFamily);
 }
-.boxes{
+.boxes2{
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.box{
+.box2{
     width: 400px;
     height: 250px;
     background-color: black;
@@ -46,4 +46,103 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.main3{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxes3{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box3{
+    width: 700px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.main4{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxes4{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box4{
+    width: 700px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.rs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes4-2nd{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box4-2nd{
+    width: 330px;
+    height: 250px;
+    background-color: black;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.boxes4-3rd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box4-3rd{
+    width: 450px;
+    height: 100px;
+    background-color: black;
+}
+
+.main5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color: brown;
+}
+.box2{
+    background-color: aquamarine;
 }
