@@ -140,9 +140,9 @@
     display: flex;
     justify-content: space-between;
 }
-.box1{
+.con{
     background-color: brown;
 }
-.box2{
+.wm{
     background-color: aquamarine;
 }
