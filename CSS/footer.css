@@ -15,40 +15,40 @@ footer{
    column-gap: 100px; 
    row-gap: 50px;
 }
-h1{
+footer h1{
     font-size: var(--defLFont);
     font-weight: var(--defHdFontWeight);
     color: white;
 }
-h3{
+footer h3{
     font-size: var(--defSFont);
     font-weight: var(--defHdFontWeight);
     color: white;
 }
-h4{
+footer h4{
     font-size: 18px;
     font-weight: var(--defHdFontWeight);
     color: white;
 }
-li{
+footer li{
     list-style: none;
 }
-a{
+footer a{
     text-decoration: none;
     color: rgb(169, 169, 169);
     font-size: 16px;
 }
-a:hover{
+footer a:hover{
     color: rgb(11, 131, 88);
 }
-p{
+footer p{
     font-size:16px;
     color: rgb(169, 169, 169);
 }
-font{
+footer font{
     color: green;
 }
-.about{
+footer .about{
     grid-area: about;
     display: flex;
     flex-direction: column;
@@ -56,45 +56,45 @@ font{
     gap: 10px;
     width: 500px;
 }
-.about .title{
+footer .about .title{
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.about .logo{
+footer .about .logo{
     width: 200px;
     height: 115px;
     border-radius: 10px;
 }
-.fir{
+footer .fir{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.quickLinks{
+footer .quickLinks{
     grid-area: quickLinks;
 }
-.supportLinks{
+footer .supportLinks{
     grid-area: supportLinks;
 }
-.connectLinks{
+footer .connectLinks{
     grid-area: connectLinks;
 }
-.links{
+footer .links{
     grid-area: links;
     display: flex;
     gap: 30px;
 }
-.links img{
+footer .links img{
     padding: 10px;
     background-color: rgb(30, 41, 57);
     border-radius: 10px;
     cursor: pointer;
 }
-.links img:hover{
+footer .links img:hover{
     background-color: rgb(0, 153, 102);
 }
-.crisisSupport{
+footer .crisisSupport{
     grid-area: crisisSupport;
     width: 100%;
     border: 2px solid red;
@@ -106,12 +106,12 @@ font{
     border-radius: var(--defBoRa);
     box-sizing: border-box;
 }
-.copyRight{
+footer .copyRight{
     grid-area: copyRight;
     display: flex;
     justify-content: space-between;
 }
-.copyRight .butLinks{
+footer .copyRight .butLinks{
     display: flex;
     gap: 40px;
 }

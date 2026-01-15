@@ -9,13 +9,14 @@
 
 .main1{
     width: 100%;
-    height: 400px;
-    background-image: linear-gradient(rgba(0, 255, 102, 0.318)),url(../Assests/Images/bg-image.png);
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 255, 102, 0.271)),url(../Assests/Images/bg-image.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
+    margin-top: 10px;
 }
 .main1 h1{
     font-size: var(--defXXLFont);
