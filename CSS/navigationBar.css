@@ -71,6 +71,7 @@ header #login{
     justify-self: self-end;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 header #login:hover{
     background-color: rgb(2, 128, 86);
@@ -86,6 +87,7 @@ header #register{
     align-self: center;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 header #register:hover{
     background-color: rgb(2, 128, 86);
