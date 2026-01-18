@@ -5,6 +5,7 @@
 
 header{
     margin: 0px var(--defMargin);
+    margin-bottom: 10px;
 }
 header nav{
     display: grid;
@@ -45,10 +46,11 @@ header #search{
     border-radius: 50px;
     align-self: center;
     justify-self: self-end;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 header #search::placeholder{
-    padding-left: 20px;
     font-family: var(--defFontFamily);
 }
 
@@ -111,6 +113,12 @@ header nav li{
 header nav li a{
     text-decoration: none;
     color: var(--defTextColor);
+    display: inline-block; 
+    transition: transform ease 0.1s;
+}
+header nav li a:hover{
+    transform: translateX(-5px);
+    
 }
 
 

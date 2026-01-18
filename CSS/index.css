@@ -16,7 +16,6 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-top: 10px;
 }
 .main1 h1{
     font-size: var(--defXXLFont);
