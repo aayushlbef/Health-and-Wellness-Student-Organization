@@ -110,6 +110,7 @@ footer .copyRight{
     grid-area: copyRight;
     display: flex;
     justify-content: space-between;
+    padding-right: 100px;
 }
 footer .copyRight .butLinks{
     display: flex;
