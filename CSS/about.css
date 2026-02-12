@@ -282,7 +282,7 @@
     display: flex;
     gap: 20px;
 }
-.main5-mail{
+.main5-mail a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,8 +290,14 @@
     padding: 5px 15px 5px 15px;
     background-color: rgb(208, 250, 229);
     border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
-.main5-linkedin{
+.main5-mail:hover{
+    background-color: rgb(65, 65, 65);
+}
+.main5-linkedin a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,6 +305,12 @@
     padding: 5px 15px 5px 15px;
     background-color: rgb(208, 250, 229);
     border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.main5-linkedin:hover{
+    background-color: rgb(65, 65, 65);   
 }
 .main5-box2{
     display: flex;
@@ -380,8 +392,6 @@
     border-radius: 35px;
     background-color: white;
     cursor: pointer;
-}
-.main7-messag button a{
     text-decoration: none;
     color: rgb(0, 161, 143);
     font-size: 17px;
