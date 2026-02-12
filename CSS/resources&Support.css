@@ -374,12 +374,12 @@
     padding: 12px 24px;
     border-radius: 30px;
     font-size: 1rem;
-    cursor: pointer;
     border: none;
     transition: transform 0.2s;
     display: flex;
     align-items: center;
     gap: 8px;
+    cursor: default;
 }
 
 .banner-buttons button:hover {
