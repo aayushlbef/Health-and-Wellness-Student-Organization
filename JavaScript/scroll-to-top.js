@@ -1,6 +1,6 @@
 // Create button dynamically
 const scrollBtn = document.createElement("button");
-scrollBtn.innerHTML = '<img src="/Assests/Images/up.svg" alt="Up" width="50">';
+scrollBtn.innerHTML = '<img src="Assests/Images/up.svg" alt="Up" width="50">';
 scrollBtn.id = "scrollTopBtn";
 
 Object.assign(scrollBtn.style, {
